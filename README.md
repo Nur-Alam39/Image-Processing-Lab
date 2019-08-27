@@ -1,9 +1,9 @@
 # Digital Image Processing Lab
 Implemention of various image processing techniques and operations. `
 
-**Platform:** Jupyter Notebook
-**Language:** Python
-**Libraries:** opencv, numpy, matplotlib`
+- **Platform:** Jupyter Notebook
+- **Language:** Python
+- **Libraries:** opencv, numpy, matplotlib`
 
 ## Image Manupulation
 
