@@ -1,4 +1,8 @@
-# Digital Image Processing Lab
+# Course Title: Digital Image Processing Lab
+
+## Semester: 4-2  
+_**Date:** July 2018 to November 2018_
+
 Implemention of various image processing techniques and operations. `
 
 - **Platform:** Jupyter Notebook
