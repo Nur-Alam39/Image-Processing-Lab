@@ -1,0 +1,20 @@
+INCLUDE EMU8086.INC
+.MODEL SMALL 
+.STACK
+.DATA
+     STR DB 'Hello World $'
+.CODE
+ MAIN PROC
+    MOV AX,DATA
+    MOV DS,AX
+    
+    LEA DX,STR
+    MOV AH,9
+    INT 21H 
+ 
+  EXIT:
+  MOV AH, 4CH
+  INT 21H
+MAIN ENDP
+END MAIN   
+    
