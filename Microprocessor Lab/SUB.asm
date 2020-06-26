@@ -13,11 +13,11 @@ MAIN PROC
     INT 21H
     MOV BH,AL
     
-    ADD BL,BH
-    SUB BL,48
+    SUB BL,BH
+    ADD BL,48
     
     PRINTN
-    PRINT 'Sum: '
+    PRINT 'Dif: '
     
     MOV AH,2
     MOV DL,BL
